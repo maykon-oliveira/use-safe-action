@@ -6,6 +6,7 @@
   "files": [
     "build"
   ],
+  "description": "Creates a typed and self validated action to be used as hook in Nextjs Client Component",
   "types": "build/index.d.ts",
   "scripts": {
     "build": "rollup -c",
@@ -27,6 +28,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/maykon-oliveira/use-safe-action/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/maykon-oliveira/use-safe-action#readme",
   "peerDependencies": {
